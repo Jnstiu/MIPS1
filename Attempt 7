@@ -1,0 +1,53 @@
+.text
+	main:
+	li $v0,11
+	addi $a0, $a0, 61 #@
+	syscall
+	addi $a0, $a0, -16 #0
+	syscall
+	addi $a0, $a0, 2 #2
+	syscall
+	addi $a0, $a0, 6 #8
+	syscall
+	addi $a0, $a0, -5 #3
+	syscall
+	addi $a0, $a0, 6 #9
+	syscall
+	addi $a0, $a0, 0 #9
+	syscall
+	addi $a0, $a0, -2 #7
+	syscall
+	addi $a0, $a0, 0 #7
+	syscall
+	addi $a0, $0, 0xA
+	syscall
+	la $a0, 74 #J
+	syscall
+	addi $a0, $a0, 43 #u
+	syscall
+	addi $a0, $a0, -2 #s
+	syscall
+	addi $a0, $a0, 1 #t
+	syscall
+	addi $a0, $a0, -11 #i
+	syscall
+	addi $a0, $a0, 5 #n
+	syscall
+	addi $a0, $a0, -66 #,
+	syscall
+	addi $a0, $a0, -12 #space
+	syscall
+	addi $a0, $a0, 51 #S
+	syscall
+	addi $a0, $a0, 33 #t
+	syscall
+	addi $a0, $a0, -15 #e
+	syscall
+	addi $a0, $a0, 18 #w
+	syscall
+	addi $a0, $a0, -22 #a
+	syscall
+	addi $a0, $a0, 17 #r
+	syscall
+	addi $a0, $a0, 2 #t
+	syscall
