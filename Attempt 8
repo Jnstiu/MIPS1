@@ -1,0 +1,53 @@
+.text
+	main:
+	li $v0,11
+	addi $a0, $a0, 61 #Prints the @
+	syscall
+	addi $a0, $a0, -16 #Prints a 0
+	syscall
+	addi $a0, $a0, 2 #Prints a 2
+	syscall
+	addi $a0, $a0, 6 #Prints a 8
+	syscall
+	addi $a0, $a0, -5 #Prints a 3
+	syscall
+	addi $a0, $a0, 6 #Prints a 9
+	syscall
+	addi $a0, $a0, 0 #Prints a 9
+	syscall
+	addi $a0, $a0, -2 #Prints a 7
+	syscall
+	addi $a0, $a0, 0 #Prints a 7
+	syscall
+	addi $a0, $0, 0xA #Prints a newline
+	syscall
+	la $a0, 74 #Prints a J
+	syscall
+	addi $a0, $a0, 43 #Prints a u
+	syscall
+	addi $a0, $a0, -2 #Prints a s
+	syscall
+	addi $a0, $a0, 1 #Prints a t
+	syscall
+	addi $a0, $a0, -11 #Prints an i
+	syscall
+	addi $a0, $a0, 5 #Prints an n
+	syscall
+	addi $a0, $a0, -66 #Prints a comma
+	syscall
+	addi $a0, $a0, -12 #Prints a space
+	syscall
+	addi $a0, $a0, 51 #Prints a S
+	syscall
+	addi $a0, $a0, 33 #Prints a t
+	syscall
+	addi $a0, $a0, -15 #Prints an e
+	syscall
+	addi $a0, $a0, 18 #Prints a w
+	syscall
+	addi $a0, $a0, -22 #Prints an a
+	syscall
+	addi $a0, $a0, 17 #Prints an r
+	syscall
+	addi $a0, $a0, 3 #Prints a t
+	syscall
